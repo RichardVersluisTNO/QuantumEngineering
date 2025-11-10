@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - master
+      - main
   release:
     types:
       - created
@@ -39,7 +39,7 @@ jobs:
             mkdocs build
 
       - name: Upload and tag as latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         run: |  
             mike deploy --push latest
             mike set-default --push latest
