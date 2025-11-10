@@ -5,10 +5,10 @@ updates:
     schedule:
       interval: "daily"
     reviewers:
-      - QuTech-Delft/cqasm
+      - RichardVersluisTNO/QuantumEngineering
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "daily"
     reviewers:
-      - QuTech-Delft/cqasm
+      - RichardVersluisTNO/QuantumEngineering
