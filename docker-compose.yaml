@@ -1,6 +1,6 @@
 services:
   mkdocs_cqasm:
-    container_name: mkdocs_cqasm
+    container_name: mkdocs_qe
     image: mkdocs
     build:
       context: .
