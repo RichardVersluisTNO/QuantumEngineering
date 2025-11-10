@@ -6,7 +6,7 @@ This repository contains Documentation on Quantum Engineering.
 
 The ... is hosted through GitHub Pages.
 
-## How to generate the cQASM language specification locally
+## How to generate the repo locally
 
 Clone the repository to your local machine:
 
@@ -39,7 +39,7 @@ The language specification can now be viewed at <http://localhost:8106>.
 
 ## License
 
-The cQASM language specification is licensed under the Apache License, Version 2.0.
+The quantum engineering repor is licensed under the Apache License, Version 2.0.
 
 ## Authors
 
